@@ -7,11 +7,11 @@ print_help()
   echo -e "Usage: rdiff-backup.sh -d dirname [OPTION]"
   echo -e "\t-d specifies path to dir with rdiff-backup"
   echo -e "OPTIONS are:"
-  echo -e "\t-s prints size of rdiff-backup"
-  echo -e "\t-t prints elapsed time"
-  echo -e "\t-c prints size cache of backup"
+  echo -e "\t-s prints size in bytes of rdiff-backup"
+  echo -e "\t-t prints duration of the last backup"
+  echo -e "\t-c prints growth size in bytes of the last backup"
   echo -e "\t-r prints start time of backup"
-  echo -e "\t-g prints start time of backup"
+  echo -e "\t-g prints timestamp when the last backup was started"
 }
 
 
